@@ -1,0 +1,38 @@
+/* registro de usuarios */
+.btn-custom {
+    color: #fff !important;
+    background-color: #f49645 !important;
+    border-color: #e9aa74 !important;
+    border-radius: 10px !important;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+  }
+  
+  .btn-custom:hover {
+    color: #fff !important;
+    background-color: #e9aa74 !important;
+    border-color: #cccccc !important;
+  }
+  .btn-gris {
+    color: #333 !important;
+    background-color: #eeeeee !important;
+    border-color: #cccccc !important;
+    border-radius: 10px !important;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
+  }
+  
+  .btn-gris:hover {
+    color: #333 !important;
+    background-color: #eeeeee !important;
+    border-color: #cccccc !important;
+  }
+  .recorte-desde-abajo {
+    clip-path: inset(0 0 50px 0) !important;
+  }
+  
+  .recorte-desde-abajo img {
+    width: 100% !important;
+    height: auto !important;
+     /* Ajusta 50px según el tamaño de recorte deseado */
+  }
