@@ -12,7 +12,7 @@ import Salones from './componets/Salones';
 function App() {
   return (
     <div>
-      <HashRouter>
+      <BrowserRouter basename="/oh-la-la">
         <Routes>
           <Route path='/register' element={<Register />}></Route>
           <Route path='/' element={<Home />}></Route>
@@ -22,7 +22,7 @@ function App() {
           <Route path='/presentador' element={<Presenter />}></Route>
           <Route path='/djs' element={<Dj />}></Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
