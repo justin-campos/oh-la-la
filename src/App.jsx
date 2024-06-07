@@ -12,7 +12,7 @@ import Salones from './componets/Salones';
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/oh-la-la">
+      <BrowserRouter>
         <Routes>
           <Route path='/register' element={<Register />}></Route>
           <Route path='/' element={<Home />}></Route>
